@@ -1,0 +1,20 @@
+.Button {
+    /* background-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(86, 34, 149, 1) 35%, rgba(31, 91, 157, 1) 100%) !important;
+    color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(86, 34, 149, 1) 35%, rgba(31, 91, 157, 1) 100%) !important
+} */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(86, 34, 149, 1) 35%, rgba(31, 91, 157, 1) 100%) !important;
+    color: '#fff'
+
+}
+
+.Links {
+    display: flex;
+    justify-content: "space-between"
+}
+
+@media screen and (max-width:375px) {
+    .Links {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
